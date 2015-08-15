@@ -1,6 +1,15 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   resources :users
   root  'static_pages#home'
+=======
+  get 'users/new'
+
+  get 'users/new'
+
+  root  'static_pages#home'
+  
+>>>>>>> 5b6eaa2c2149344410c04eb249627d7ab299612e
   match '/signup',  to: 'users#new',            via: 'get'
   match '/help',    to: 'static_pages#help',    via: 'get'
   match '/about',   to: 'static_pages#about',   via: 'get'

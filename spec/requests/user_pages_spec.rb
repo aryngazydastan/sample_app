@@ -4,6 +4,7 @@ describe "User pages" do
 
   subject { page }
 
+<<<<<<< HEAD
   describe "profile page" do
     let(:user) { FactoryGirl.create(:user) }
     before { visit user_path(user) }
@@ -36,5 +37,12 @@ describe "User pages" do
         expect { click_button submit }.to change(User, :count).by(1)
       end
     end
+=======
+  describe "signup page" do
+    before { visit signup_path }
+
+    it { should have_content('Sign up') }
+    it { should have_title('Sign up') }
+>>>>>>> 5b6eaa2c2149344410c04eb249627d7ab299612e
   end
 end

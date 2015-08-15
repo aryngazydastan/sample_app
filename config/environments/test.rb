@@ -39,5 +39,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+<<<<<<< HEAD
   ActiveModel::SecurePassword.min_cost = true
+=======
+>>>>>>> 5b6eaa2c2149344410c04eb249627d7ab299612e
 end

@@ -6,6 +6,10 @@ gem 'rails'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
 gem 'pg'
+<<<<<<< HEAD
+=======
+gem 'bcrypt-ruby'
+>>>>>>> 5b6eaa2c2149344410c04eb249627d7ab299612e
 # Use sqlite3 as the database for Active Record
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -54,7 +58,10 @@ end
 group :test do
 	gem 'selenium-webdriver'
 	gem 'capybara'
+<<<<<<< HEAD
   gem 'factory_girl_rails'
+=======
+>>>>>>> 5b6eaa2c2149344410c04eb249627d7ab299612e
 end
 
 group :doc do
